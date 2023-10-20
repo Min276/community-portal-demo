@@ -1,0 +1,19 @@
+.youtube_box {
+    height: 400px;
+    width: 100%;
+    /* border-radius: 5px; */
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+    /* margin-top: -3rem; */
+    /* z-index: 0; */
+    /* margin-left: 5rem; */
+}
+
+.text_box {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    line-clamp: 3; 
+    -webkit-box-orient: vertical;
+}
