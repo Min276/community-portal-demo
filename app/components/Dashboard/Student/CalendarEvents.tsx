@@ -14,7 +14,7 @@ const CalendarEvents = () => {
 
   return (
     <Box className="bg-[#F6F9FE] p-4 md:p-6 rounded-xl flex flex-col md:flex-row gap-y-6 gap-x-6">
-      <LocalizationProvider dateAdapter={AdapterDayjs} className="md:w-1/2">
+      <LocalizationProvider dateAdapter={AdapterDayjs}>
         <DateCalendar
           className="shadow-md bg-white !w-full md:!w-1/2 rounded-xl"
           date={date}
