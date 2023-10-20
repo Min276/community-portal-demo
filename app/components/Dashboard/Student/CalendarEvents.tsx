@@ -17,8 +17,6 @@ const CalendarEvents = () => {
       <LocalizationProvider dateAdapter={AdapterDayjs}>
         <DateCalendar
           className="shadow-md bg-white !w-full md:!w-1/2 rounded-xl"
-          date={date}
-          onChange={(newDate) => setDate(newDate)}
         />
       </LocalizationProvider>
       <Box className="md:w-1/2 bg-white rounded-b-lg shadow-lg">
